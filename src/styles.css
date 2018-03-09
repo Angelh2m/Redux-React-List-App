@@ -1,0 +1,53 @@
+body {
+  background-color: #2d3538;
+}
+
+/* .application {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+} */
+
+.list {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  width: 80%;
+  color: white;
+  margin: 0 auto;
+  padding: 2rem 1rem 0rem 0rem;
+}
+
+.col-6 li {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0rem 1rem 0rem;
+  border-bottom: solid 1px #e0e0e0;
+  /* border-radius: 1rem; */
+  -ms-flex-pack: distribute;
+  justify-content: space-between;
+  width: 14rem;
+  margin-bottom: 1rem;
+  position: relative;
+  align-items: center;
+}
+
+.col-6 li .add {
+  border: solid 1px #673ab7;
+  padding: 5px 12px;
+  border-radius: 50%;
+  color: #673ab7;
+}
+
+.HeroList {
+  color: #673ab7;
+}
+
+.application .container {
+  margin-top: 3rem;
+}
